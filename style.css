@@ -1,0 +1,756 @@
+                        .container {
+                            max-width: 1300px !important;
+                            overflow: hidden;
+                        }
+                        
+                        header {
+                            background-image: url("img/bg-header.jpg");
+                            background-size: 100% 100%;
+                            background-repeat: no-repeat;
+                        }
+                        
+                        .navbar a {
+                            color: #fff !important;
+                        }
+                        
+                        .navbar-light .navbar-toggler-icon {
+                            background-image: url("https://i.ya-webdesign.com/images/hamburger-menu-icon-png-white-6.png") !important;
+                        }
+                        
+                        #HeaderSection {
+                            padding-bottom: 245px;
+                        }
+                        
+                        #HeaderSection h1 {
+                            font: 900 60px "Source Sans Pro", sans-serif;
+                            color: #fff;
+                            text-align: center;
+                            margin-top: 130px;
+                        }
+                        
+                        #HeaderSection p {
+                            max-width: 659px;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            color: #fff;
+                            text-align: center;
+                            margin: auto;
+                            margin-top: 65px;
+                        }
+                        
+                        #HeaderSection div {
+                            margin-top: 60px;
+                        }
+                        
+                        #HeaderSection button {
+                            border-radius: 0 !important;
+                            width: 190px;
+                            height: 50px;
+                            color: #fff;
+                        }
+                        
+                        #HeaderSection .btn-danger {
+                            margin-right: 30px;
+                        }
+                        
+                        .NescafeActive {
+                            background-color: #fb414e !important;
+                        }
+                        
+                        .nescafe {
+                            background-color: #202b30;
+                            margin-left: 20px;
+                        }
+                        
+                        .nescafe img {
+                            margin-top: 75px;
+                            margin-left: 55px;
+                        }
+                        
+                        .nescafe h3 {
+                            font: 500 20px/100px "Roboto", sans-serif;
+                            color: #fff;
+                            margin-left: 60px;
+                        }
+                        
+                        .nescafe hr {
+                            width: 50px;
+                            height: 4px;
+                            background-color: #fff;
+                            border: none;
+                            float: left;
+                            margin-left: 60px;
+                            margin-bottom: 25px;
+                        }
+                        
+                        .nescafe p {
+                            clear: both;
+                            max-width: 306px;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            color: #fff;
+                            margin-left: 60px;
+                            margin-right: 60px;
+                            padding-bottom: 75px;
+                        }
+                        
+                        #Nescafe {
+                            transform: translate(0, -90px);
+                        }
+                        
+                        @media only screen and (max-width:768px) {
+                            #Nescafe .d-flex {
+                                flex-direction: column;
+                            }
+                            .nescafe {
+                                margin-left: 0;
+                                margin-bottom: 20px;
+                            }
+                        }
+                        
+                        #service h1 {
+                            text-align: center;
+                            font-size: 60px;
+                            color: #1f1f1f;
+                            font-family: "Source Sans Pro" sans-serif;
+                            font-weight: 700;
+                            margin-top: 30px;
+                        }
+                        
+                        #service h6 {
+                            text-align: center;
+                            font: 700 16px "Roboto", sans-serif;
+                            color: #fb414e;
+                            margin-top: 140px;
+                        }
+                        
+                        #yeni {
+                            text-align: center;
+                            max-width: 679px;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            color: #838383;
+                            margin: auto;
+                            margin-top: 60px;
+                        }
+                        
+                        .umumi {
+                            display: flex;
+                            justify-content: space-around;
+                            margin-top: 130px;
+                        }
+                        
+                        .esas {
+                            display: flex;
+                            margin-top: 70px;
+                            padding-bottom: 140px;
+                        }
+                        
+                        .services {
+                            margin: auto;
+                        }
+                        
+                        .services p {
+                            max-width: 308px;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            color: #838383;
+                            margin-top: 35px;
+                            text-align: center;
+                        }
+                        
+                        .services h3 {
+                            color: #1f1f1f;
+                            font: 700 32px "Source Sans Pro", sans-serif;
+                            text-align: center;
+                            margin-top: 35px;
+                        }
+                        
+                        .services img {
+                            display: block;
+                            margin: auto;
+                        }
+                        
+                        @media only screen and (max-width:768px) {
+                            .services img {
+                                margin-top: 20px;
+                            }
+                            .esas,
+                            .umumi {
+                                flex-direction: column;
+                            }
+                        }
+                        
+                        #detailed {
+                            background-color: #202b30;
+                            margin: auto;
+                            padding-bottom: 115px;
+                        }
+                        
+                        #detailed h1 {
+                            padding-top: 130px;
+                            color: #ffffff;
+                            font: 700 48px "Source Sans Pro", sans-serif;
+                        }
+                        
+                        #detailed p {
+                            margin-top: 60px;
+                            max-width: 591px;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            color: #fff;
+                        }
+                        
+                        #detailed button {
+                            width: 190px;
+                            height: 50px;
+                            margin-top: 60px;
+                            outline: none;
+                            border: none;
+                            border: 2px solid #FFF;
+                            background-color: #202b30;
+                            color: #fff;
+                            font: 400 16px "Roboto", sans-serif;
+                            text-align: center;
+                        }
+                        
+                        #sekil img {
+                            margin-right: 40px;
+                            padding-top: 115px;
+                        }
+                        
+                        #cost {
+                            padding-top: 130px;
+                            padding-bottom: 150px;
+                            background-color: #f8f8f8;
+                        }
+                        
+                        .elegant h6 {
+                            color: #1f1f1f;
+                            font: 600 20px "Source Sans Pro", sans-serif;
+                        }
+                        
+                        .elegant p {
+                            max-width: 300px;
+                            color: #838383;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            margin-bottom: 60px;
+                        }
+                        
+                        .true {
+                            margin-left: 50px;
+                        }
+                        
+                        #design {
+                            margin-left: 60px;
+                        }
+                        
+                        #design h1 {
+                            color: #1f1f1f;
+                            font: 700 48px "Source Sans Pro", sans-serif;
+                            max-width: 600px;
+                        }
+                        
+                        #design p {
+                            max-width: 591px;
+                            color: #838383;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                        }
+                        
+                        @media only screen and (max-width:768px) {
+                            #cost .d-flex {
+                                flex-direction: column;
+                                max-width: 300px;
+                            }
+                            .elegant {
+                                margin: auto;
+                                text-align: center;
+                            }
+                        }
+                        
+                        #dord ul {
+                            list-style: none;
+                            display: flex;
+                            justify-content: center;
+                            padding-top: 130px;
+                        }
+                        
+                        #dord li {
+                            display: inline;
+                            margin-left: 20px;
+                        }
+                        
+                        #dord li a {
+                            text-decoration: none;
+                            margin-right: 60px;
+                            color: #a4a4a4;
+                            font: 400 16px "Source Sans Pro", sans-serif;
+                        }
+                        
+                        #aa {
+                            margin-top: 50px;
+                        }
+                        
+                        #aa img {
+                            width: 300px;
+                            margin: 5px 5px 0 5px;
+                        }
+                        
+                        #trust h1 {
+                            margin-top: 135px;
+                        }
+                        
+                        #trusted p {
+                            margin-top: 50px;
+                            max-width: 591px;
+                            color: #1f1f1f;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                        }
+                        
+                        #trusted h1 {
+                            color: #1f1f1f;
+                            font: 700 48px "Source Sans Pro", sans-serif;
+                            max-width: 600px;
+                        }
+                        
+                        #trusted button {
+                            margin-top: 50px;
+                            width: 190px;
+                            height: 50px;
+                            border: 2px solid #000;
+                            outline: none;
+                            background-color: white;
+                        }
+                        
+                        #trust {
+                            padding-bottom: 120px;
+                        }
+                        
+                        #bymore img {
+                            margin-top: 150px;
+                            width: 80%;
+                            height: 330px;
+                            margin-left: 70px;
+                        }
+                        
+                        @media only screen and (max-width:768px) {
+                            #dord ul {
+                                flex-direction: column;
+                            }
+                            #dord li {
+                                text-align: center;
+                                margin-right: 0px;
+                            }
+                            #aa img {
+                                margin: auto;
+                                display: block;
+                                margin-top: 10px;
+                            }
+                            #trusted {
+                                display: block;
+                                margin: auto;
+                            }
+                            #trust .d-flex {
+                                flex-direction: column;
+                                text-align: center;
+                                margin: auto;
+                            }
+                            #bymore img {
+                                margin: auto;
+                                margin-left: 0;
+                                max-width: 450px;
+                                margin-top: 20px;
+                            }
+                        }
+                        
+                        #company {
+                            background-color: #202b30;
+                        }
+                        
+                        #company p {
+                            max-width: 1150px;
+                            color: #fff;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            margin-top: 40px;
+                            padding-bottom: 140px;
+                            margin-bottom: 0;
+                        }
+                        
+                        #company h1 {
+                            max-width: 1200px;
+                            color: #fff;
+                            font: 700 48px "Source Sans Pro", sans-serif;
+                            text-align: right;
+                            padding-top: 140px;
+                        }
+                        
+                        #vip {
+                            float: left;
+                            clear: both;
+                            margin-top: 90px;
+                        }
+                        
+                        #vip :nth-child(2) {
+                            margin-left: 170px;
+                            margin-right: 50px;
+                        }
+                        
+                        #fast {
+                            float: left;
+                            padding-top: 115px;
+                        }
+                        
+                        #fast :nth-child(2) {
+                            margin-left: 80px;
+                            margin-right: 40px;
+                        }
+                        
+                        @media only screen and (max-width: 768px) {
+                            #vip :nth-child(2) {
+                                margin-left: 80px;
+                                margin-top: 30px;
+                                margin-bottom: 20px;
+                            }
+                            #fast :nth-child(2) {
+                                margin-top: 30px;
+                                margin-right: 50px;
+                            }
+                            #fast img {
+                                margin: auto;
+                                display: block;
+                            }
+                            #vip img {
+                                display: block;
+                                margin: auto;
+                            }
+                        }
+                        
+                        #alti {
+                            background-image: url("img/bg.jpg");
+                            background-repeat: no-repeat;
+                            background-size: 100% 100%;
+                            background-color: #f7f7f7;
+                        }
+                        
+                        #alti p {
+                            max-width: 591px;
+                            color: #838383;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            margin-top: 60px;
+                        }
+                        
+                        #alti h1 {
+                            padding-top: 140px;
+                            max-width: 550px;
+                            color: #1f1f1f;
+                            font: 700 48px "Source Sans Pro", sans-serif;
+                        }
+                        
+                        #secured {
+                            display: flex;
+                            padding-bottom: 140px;
+                        }
+                        
+                        #server h6 {
+                            color: #5e5e5e;
+                            font: 400 20px "Source Sans Pro", sans-serif;
+                            margin-top: 20px;
+                        }
+                        
+                        #marketing h6 {
+                            color: #5e5e5e;
+                            font: 400 20px "Source Sans Pro", sans-serif;
+                            margin-top: 20px;
+                        }
+                        
+                        #server img {
+                            margin-top: 50px;
+                        }
+                        
+                        #marketing img {
+                            margin-top: 50px;
+                        }
+                        
+                        #server p {
+                            max-width: 308px;
+                            color: #838383;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            margin-top: 25px;
+                        }
+                        
+                        #marketing p {
+                            max-width: 308px;
+                            color: #838383;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            margin-top: 25px;
+                        }
+                        
+                        #marketing {
+                            margin-left: 70px;
+                        }
+                        
+                        @media only screen and (max-width:768px) {
+                            #secured {
+                                flex-direction: column;
+                            }
+                            #marketing {
+                                margin-left: 0;
+                            }
+                        }
+                        
+                        #want h1 {
+                            color: #000;
+                            font: 700 60px "Source Sans Pro", sans-serif;
+                            max-width: 500px;
+                            padding-top: 140px;
+                        }
+                        
+                        #want p {
+                            max-width: 497px;
+                            color: #838383;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            padding-left: 15px;
+                        }
+                        
+                        #wants textarea {
+                            margin-top: 20px;
+                            width: 620px;
+                            resize: none;
+                            padding-left: 20px;
+                            outline: none;
+                        }
+                        
+                        #wants [type=email] {
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                            width: 300px;
+                            margin-left: 15px;
+                        }
+                        
+                        #wants select {
+                            height: 45px;
+                            width: 620px;
+                            padding-left: 20px;
+                            color: #000;
+                            font: 300 16px/100px "Roboto", sans-serif;
+                            outline: none;
+                        }
+                        
+                        #wants {
+                            margin-left: 110px;
+                            padding-top: 160px;
+                        }
+                        
+                        #wants input {
+                            height: 45px;
+                            padding-left: 20px;
+                            color: #000;
+                            font: 300 16px/100px "Roboto", sans-serif;
+                            outline: none;
+                        }
+                        
+                        #new div {
+                            float: left;
+                        }
+                        
+                        #account button {
+                            width: 100%;
+                            height: 50px;
+                            background-color: #fb414e;
+                            color: #fff;
+                            font: 400 16px "Roboto", sans-serif;
+                            text-align: center;
+                            border: none;
+                            outline: none;
+                            margin-bottom: 140px;
+                            margin-top: 40px;
+                        }
+                        
+                        @media only screen and (max-width:768px) {
+                            #account div {
+                                margin-top: 10px;
+                            }
+                            #want {
+                                text-align: center;
+                            }
+                            #wants input {
+                                max-width: 300px;
+                                margin: auto;
+                                display: block;
+                            }
+                            #wants {
+                                margin-left: 0;
+                            }
+                            #wants [type=email] {
+                                margin-left: 0;
+                            }
+                            #wants select {
+                                max-width: 300px;
+                            }
+                            #wants textarea {
+                                max-width: 300px;
+                            }
+                        }
+                        
+                        #contact {
+                            background-color: #202b30;
+                            padding-top: 90px;
+                        }
+                        
+                        #email p {
+                            max-width: 359px;
+                            color: #fff;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                            margin-top: 30px;
+                            margin-left: 10px;
+                        }
+                        
+                        #adres {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top: 90px;
+                        }
+                        
+                        #email h6 {
+                            color: #fff;
+                            font: 500 16px "Roboto", sans-serif;
+                            margin-left: 10px;
+                        }
+                        
+                        #alt h5 {
+                            color: #fff;
+                            font: 500 16px "Roboto", sans-serif;
+                            text-align: right;
+                            margin-bottom: 35px;
+                        }
+                        
+                        #alt div {
+                            display: flex;
+                        }
+                        
+                        #alt input {
+                            width: 420px;
+                            height: 45px;
+                            padding-left: 20px;
+                            outline: none;
+                            border: none;
+                        }
+                        
+                        #alt input ::placeholder {
+                            color: #848484;
+                            font: 300 14px/100px "Roboto", sans-serif;
+                        }
+                        
+                        #alt button {
+                            width: 110px;
+                            height: 45px;
+                            outline: none;
+                            border: none;
+                            border-radius: 0;
+                        }
+                        
+                        #social a {
+                            margin-right: 20px;
+                            color: #000;
+                            border: 1px solid #dc3e49;
+                            border-radius: 50%;
+                            padding: 2px 8px;
+                            font-size: 26px;
+                            background-color: #dc3e49;
+                            opacity: 1;
+                        }
+                        
+                        #social a:hover {
+                            opacity: .5;
+                        }
+                        
+                        #social {
+                            padding-bottom: 60px;
+                            margin-top: 90px;
+                        }
+                        
+                        #social p {
+                            color: #586165;
+                            font: 300 14px/28px "Roboto", sans-serif;
+                            float: right;
+                        }
+                        
+                        @media only screen and (max-width:768px) {
+                            #adres {
+                                flex-direction: column;
+                                margin: auto;
+                            }
+                            #alt {
+                                flex-direction: column;
+                            }
+                            #alt h5 {
+                                text-align: left;
+                            }
+                            #social p {
+                                margin-top: 20px;
+                                float: left;
+                            }
+                            #email h6 {
+                                margin-top: 20px;
+                            }
+                            #alt input {
+                                max-width: 200px;
+                            }
+                        }
+                        /*Service*/
+                        
+                        #main {
+                            background-image: url("img/New Project (2).jpg");
+                            background-repeat: no-repeat;
+                            background-size: 100% 100%;
+                        }
+                        
+                        #ColumnRow {
+                            margin-top: 165px;
+                            padding-bottom: 250px;
+                        }
+                        
+                        #ColumnRow h6 {
+                            color: #fff;
+                            font: 700 16px "Roboto", sans-serif;
+                        }
+                        
+                        #ColumnRow h1 {
+                            max-width: 950px;
+                            color: #fff;
+                            font-family: 700 82px/90px "Source Sans Pro", sans-serif;
+                        }
+                        
+                        #ColumnRow p {
+                            max-width: 679px;
+                            color: #fff;
+                            font: 300 16px/28px "Roboto", sans-serif;
+                        }
+                        
+                        .media img {
+                            padding-top: 120px;
+                        }
+                        
+                        .media-body h5 {
+                            color: #1f1f1f;
+                            font-family: 700 32px "Source Sans Pro", sans-serif;
+                            padding-top: 120px;
+                        }
+                        
+                        .media {
+                            padding-bottom: 130px;
+                        }
+                        
+                        .media-body p {
+                            max-width: 1002px;
+                            color: #838383;
+                            font: 300 16px/28px "Source Sans Pro", sans-serif;
+                            margin-top: 35px;
+                        }
+                        
+                        #digital {
+                            background-color: #f7f7f7;
+                        }
+                        
+                        .sol img {
+                            padding-right: 30px;
+                        }
+                        
+                        .sag img {
+                            padding-left: 30px;
+                        }
